@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee data</title>
+    <link rel="stylesheet" href="empdata.css">     
+  </head>
+  <body>
+    <!-- heading -->
+    <div id="head">
+      <h1>Employee Data</h1>
+    </div>
+    <!-- main body -->
+    <div id="body">
+        <!-- insert employee -->
+      <div id="insert">
+        <h2 id="hin">Insert Employee</h2>
+        <form action="InsertEmp" method="get">
+          <input type="number" name="id" class="ins" placeholder="Enter Id" /><br />
+          <input type="text" name="name" class="ins" placeholder="Enter name" /><br />
+          <input type="text" name="dept" class="ins" placeholder="Enter dept" /><br />
+          <input type="number"  name="sal" class="ins" placeholder="Enter sal" /><br />
+          <input type="submit" id="insub" value="submit" />
+        </form>
+      </div>
+      <!-- show employee -->
+      <div id="show">
+        <h2 id="hs">Display Employees</h2>
+        <form action="ShowEmp" method="get">
+          <input type="submit" value="Show employees" />
+        </form>
+      </div>
+      <!-- delete employee -->
+      <div id="delete">
+        <h2 id="hd">Delete employee</h2>
+        <form action="DeleteEmp" method="get">
+          <input type="number" name="id" placeholder="Enter Id" /><br />
+          <input type="submit" value="Delete" />
+        </form>
+      </div>
+    </div>
+    
+  </body>
+</html>

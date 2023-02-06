@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+*{
+  padding: 0; 
+  margin: 0; 
+}
+#head{
+    display: flex;
+    background-color: antiquewhite;
+    height: 90px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#insert{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+#insert form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#insert form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#insert h2{
+    padding-bottom: 10px;
+}
+
+#show{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+#show form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#show form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#show h2{
+    padding-bottom: 10px;
+}
+#delete{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+#delete form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#delete form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#delete h2{
+    padding-bottom: 10px;
+}
